@@ -17,6 +17,6 @@ public class Springboot1Application {
 
     @RequestMapping("/hello/{id}")
     public @ResponseBody String hello(@PathVariable String id){
-        return "哈哈哈，hheheeh! 123465 === " + id;
+        return "大家好，我是 " + id;
     }
 }
